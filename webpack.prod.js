@@ -70,9 +70,9 @@ module.exports = function (env, argv) {
         {
           test: /\.(woff|woff2|svg|ttf|eot)$/,
           use: [{
-              loader: 'file-loader',
+              loader: 'url-loader',
               options: {
-                name: 'fonts/[name].[hash:8].[ext]',
+                name:'fonts/[name].[hash:8].[ext]',
                 limit: 80000
               }
             } //项目设置打包到dist下的fonts文件夹下

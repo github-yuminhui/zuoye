@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.prod.js --mode production",
     "lint": "eslint --fix --ext .js,.vue src test/unit",
     "watch": "webpack --watch",
-    "deploy": "gh-pages -d dist -e demo02"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@babel/cli": "^7.7.0",
